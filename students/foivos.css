@@ -1,3 +1,47 @@
+#AboutPage {
+    background-color: #8a8be0;
+}
+
 .colored-text {
     color: green;
 }
+
+.about{
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+     background-color: #8a8be0;
+}
+
+
+.about h1{
+    color:#fced4d;
+    margin: 2em;
+}
+
+.about img{
+    height: 100%;
+    width: 100%; 
+    border-radius: 50%;
+}
+
+.about span{
+    display: block;
+    color:#fced4d;
+    position: relative;
+}
+
+.about .desc{
+    padding: 2em;
+    border-top:4px solid #fced4d
+}
+
+.about .desch3{
+    color: #10828C;
+}
+
+.about .descp{
+    line-height:2;
+    color:#888;
+}
+
