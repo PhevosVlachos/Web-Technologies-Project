@@ -3,13 +3,18 @@
 
 
 #AboutPage {
-    background-color: #8a8be0;
+    
 }
 
 #photoAndDesc{
     padding: 1em;
 }
-.about h1{
+
+body {
+    background-color: #7eaba9;
+}
+
+h1{
     color:#fced4d;
     margin: 1em;
 }
@@ -38,12 +43,16 @@
     color: green;
 }
 
-.about .desch3 {
+.desch3 {
     margin: auto;
 }
 
 .info {
     padding-top: 1em;
+}
+
+.automargin {
+    margin: auto;
 }
 
 
