@@ -2,15 +2,10 @@
     background-color: #8a8be0;
 }
 
-.colored-text {
-    color: green;
-}
-
 .about{
     margin: 4em 0;
     padding: 1em;
     position: relative;
-     background-color: #8a8be0;
 }
 
 
@@ -28,12 +23,16 @@
 .about span{
     display: block;
     color:#fced4d;
-    position: relative;
+    position: absolute;
+    left: 40%;
+    padding: 10px;
+    
+    
 }
 
-.about .desc{
+.about .desc {
     padding: 2em;
-    border-top:4px solid #fced4d
+    border-top:4px solid #fced4d;
 }
 
 .about .desch3{
@@ -44,4 +43,9 @@
     line-height:2;
     color:#888;
 }
+
+.colored-text {
+    color: green;
+}
+
 
