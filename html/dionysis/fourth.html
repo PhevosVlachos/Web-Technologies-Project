@@ -12,15 +12,17 @@
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Turing</title>
+<link rel="stylesheet" type="text/css" href="css/fourth.css">
 </head>
 
 
 <body>
-
+	
+	<!-- Navigation bar -->
     <div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="/index.html">History of Computing</a>
+            <a class="navbar-brand" href="../../index.html">History of Computing</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -28,7 +30,7 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="../../index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -36,16 +38,58 @@
                             Student profiles
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="./students/stefan.html">Stefan's profile</a>
-                            <a class="dropdown-item" href="./students/foivos.html">Foivos' profile</a>
-                            <a class="dropdown-item" href="./students/nikolaos.html">Nikolaos' profile</a>
-                            <a class="dropdown-item" href="./students/dionysis.html">Dionysis' profile</a>
+                            <a class="dropdown-item" href="../../students/stefan.html">Stefan's profile</a>
+                            <a class="dropdown-item" href="../../students/foivos.html">Foivos' profile</a>
+                            <a class="dropdown-item" href="../../students/nikolaos.html">Nikolaos' profile</a>
+                            <a class="dropdown-item" href="../../students/dionysis.html">Dionysis' profile</a>
                         </div>
                     </li>
+					
+					<li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dionysis' Pages
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="first.html">Early Civilizations</a>
+                            <a class="dropdown-item" href="second.html">Charles Babbge</a>
+                            <a class="dropdown-item" href="third.html">Boole</a>
+                            <a class="dropdown-item" href="fourth.html">Turing</a>
+							<a class="dropdown-item" href="fifth.html">Atanasoff</a>
+                        </div>
+                    </li>
+					
                 </ul>
             </div>
         </nav>
     </div>
+	<!-- Navigation bar end -->
+	
+	<!-- Main content -->
+	<div class="header">
+		<div class="cointainer">
+			<h1 class="text-center">Universal Turing Machine</h1>
+			<h3 class="text-center">1936</h3>
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12">
+					<p>The Universal Computing Machine was invented by <a href="https://www.britannica.com/biography/Alan-Turing">Alan Turing</a> in 1936. 
+					Despite its name it was not actually a machine but a theoretical principle describing a digital computing machine. 
+					The conceptual machine comprises of endless tape, that serves as a memory, divided into squares. 
+					Inside the squares, instructions are stored in the form of symbols. 
+					A scanner reads through the memory while also being able to erase, write or change the content of each square depending on the instruction. 
+					Sets of instructions are translated into commands by the control mechanism. 
+					The concept of the Universal Computing Machine is similar to the way modern digital computers operate with the use of a processor, 
+					a memory where instructions are stored and input/out devices. 
+					</p>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12">
+					<img src="images/Turing.jpg" class="img-fluid">
+				
+				</div>
+			</div>
+		</div>
+	</div>
+	
 
 
 </body>

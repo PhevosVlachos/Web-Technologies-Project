@@ -1,0 +1,23 @@
+body{
+	background-color: #aba37e;
+}
+
+.header h1{
+	padding-top: 1em;
+}
+.header h3{
+	padding-bottom:1em;
+}
+.header p{
+	padding: 1em;
+	padding-left: 3em;
+}
+.header img{
+	padding-left: 4em;
+}
+.header .row{
+	margin:0;
+}
+a{
+	color:#0642a1;
+}
