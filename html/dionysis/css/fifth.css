@@ -3,19 +3,18 @@ body{
 }
 
 .header h1{
-	padding-top: 1em;
-}
-.header h3{
-	padding-bottom:1em;
+	padding: 1em;
 }
 .header p{
 	padding: 1em;
 	padding-left: 3em;
 	font-size:1.2rem;
 	padding-bottom:0;
+
 }
 .header img{
-	padding-left: 4em;
+	padding-left: 3em;
+	padding-top: 1em;
 }
 .header .row{
 	margin:0;
